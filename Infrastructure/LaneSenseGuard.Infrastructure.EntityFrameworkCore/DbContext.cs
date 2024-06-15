@@ -8,9 +8,11 @@ namespace LaneSenseGuard.Infrastructure.EntityFrameworkCore;
 
 public class DbContext : BaseDbContext
 {
-    public DbContext(DbContextOptions options, ICurrentUser currentUser, IMediator mediator) : base(options, currentUser, mediator)
+    public DbContext(DbContextOptions options, ICurrentUser currentUser, IMediator mediator) : base(options,
+        currentUser, mediator)
     {
     }
+
     public DbSet<Raspberry> Raspberries { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder builder)

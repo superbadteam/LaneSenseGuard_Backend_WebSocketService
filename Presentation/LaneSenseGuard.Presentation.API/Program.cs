@@ -12,8 +12,8 @@ builder.Host.UseDefaultHosts(builder.Configuration);
 builder.Services.AddDefaultExtensions(builder.Configuration);
 
 await builder.Services.AddDefaultModuleExtensionsAsync<ApplicationAssemblyReference,
-        DomainAssemblyReference,
-        DbContext>(builder.Configuration);
+    DomainAssemblyReference,
+    DbContext>(builder.Configuration);
 
 builder.Host.UseDefaultHosts(builder.Configuration);
 
