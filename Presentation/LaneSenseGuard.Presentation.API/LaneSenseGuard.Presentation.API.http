@@ -1,0 +1,6 @@
+@LaneSenseGuard.Presentation.API_HostAddress = http://localhost:5228
+
+GET {{LaneSenseGuard.Presentation.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

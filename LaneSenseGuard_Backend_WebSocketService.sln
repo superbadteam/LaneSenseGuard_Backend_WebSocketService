@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSenseGuard.Presentation.API", "Presentation\LaneSenseGuard.Presentation.API\LaneSenseGuard.Presentation.API.csproj", "{3B09D8D3-CA33-4954-9AB1-6616ED894F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2681C666-6416-4759-86E2-0D1ACA969ADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C8F9EE37-FA1C-48FE-8A4C-69014E82B072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSenseGuard.Core.Domain", "Core\LaneSenseGuard.Core.Domain\LaneSenseGuard.Core.Domain.csproj", "{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSenseGuard.Core.Application", "Core\LaneSenseGuard.Core.Application\LaneSenseGuard.Core.Application.csproj", "{C337AF21-B89A-4351-96AA-55ECA9B82498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F97BD84D-6323-46E6-852D-F824F2AE1F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSenseGuard.Infrastructure.EntityFrameworkCore", "Infrastructure\LaneSenseGuard.Infrastructure.EntityFrameworkCore\LaneSenseGuard.Infrastructure.EntityFrameworkCore.csproj", "{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B09D8D3-CA33-4954-9AB1-6616ED894F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B09D8D3-CA33-4954-9AB1-6616ED894F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B09D8D3-CA33-4954-9AB1-6616ED894F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B09D8D3-CA33-4954-9AB1-6616ED894F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C337AF21-B89A-4351-96AA-55ECA9B82498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C337AF21-B89A-4351-96AA-55ECA9B82498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C337AF21-B89A-4351-96AA-55ECA9B82498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C337AF21-B89A-4351-96AA-55ECA9B82498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B09D8D3-CA33-4954-9AB1-6616ED894F20} = {2681C666-6416-4759-86E2-0D1ACA969ADC}
+		{E8D96957-7450-43A6-8D3E-3EEDD42D4F3A} = {C8F9EE37-FA1C-48FE-8A4C-69014E82B072}
+		{C337AF21-B89A-4351-96AA-55ECA9B82498} = {C8F9EE37-FA1C-48FE-8A4C-69014E82B072}
+		{D1DA59C9-FEEF-4899-B5AC-CC86C3B899B5} = {F97BD84D-6323-46E6-852D-F824F2AE1F30}
+	EndGlobalSection
+EndGlobal
